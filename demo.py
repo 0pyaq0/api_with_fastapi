@@ -8,7 +8,7 @@ class Model(BaseModel):
     phone : int
 
 @app.get("/")
-def 작명():
+async def 작명():
     return FileResponse('index.html')
 
 '''
